@@ -1,7 +1,7 @@
 # Episodic-Backward-Update
 Lasagne/Theano-based implementation of ["Sample-Efficient Deep Reinforcement Learning via Episodic Backward Update"](https://arxiv.org/abs/1805.12375), NeurIPS 2019.
 
-Episodic Backward Update (EBU) with a constant diffusion factor for the ATARI environment will be uploaded.
+Episodic Backward Update (EBU) with a constant diffusion factor for the ATARI environment is uploaded.
 
 # Dependencies
 * Numpy
