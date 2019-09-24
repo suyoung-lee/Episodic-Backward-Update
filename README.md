@@ -29,4 +29,6 @@ By default, it returns the test scores at every 62,500 steps for 40 times (62,50
 
 You may modify the STEPS_PER_EPOCH and EPOCHS parameter in run_EBU.py to change the total number of training steps and the frequency of evaluation.
 
+You will see the process as below if everything runs fine.
+
 ![running](https://user-images.githubusercontent.com/26214784/65491773-aac10200-deea-11e9-9b5c-6c80c41c178e.png)
