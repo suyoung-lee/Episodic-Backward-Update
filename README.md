@@ -25,7 +25,7 @@ Please refer to [https://github.com/spragunr/deep_q_rl](https://github.com/sprag
 You can train an EBU agent with a constant diffusion factor 0.5 in breakout using random seed 12 on gpu0 as follows.
 `THEANO_FLAGS='device=gpu0, allow_gc=False' python code/run_EBU.py -r 'breakout' --Seed 12 --beta 0.5`
 
-By default, it returns the test scores at every 62,500 steps for 40 times (62,500 steps x 4 frames/step x 40 = 10M frames).
+By default, it returns the test scores at every 62,500 steps for 40 times (62,500 steps x 4 frames/step x 40 = 10M frames in total).
 
 You may modify the STEPS_PER_EPOCH and EPOCHS parameter in run_EBU.py to change the total number of training steps and the frequency of evaluation.
 
