@@ -10,8 +10,10 @@ Episodic Backward Update (EBU) with a constant diffusion factor for the ATARI en
 * Matplotlib
 * Lasagne
 * ALE
+* Theano (0.9.0)
 
 Our implementation is based on Shibi He's [implementation](https://github.com/ShibiHe/Q-Optimality-Tightening) of [Optimality Tightening](https://arxiv.org/abs/1611.01606) which is based on Nathan Sprague's implementation of [deep Q RL](https://github.com/spragunr/deep_q_rl).
+We ran the code with CUDA 8.0/CUDNN 5.1.5/Titan XP.
 
 Please refer to [https://github.com/spragunr/deep_q_rl](https://github.com/spragunr/deep_q_rl) for installing the dependencies.
 
