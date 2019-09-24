@@ -16,6 +16,6 @@ Our implementation is based on Shibi He's [implementation](https://github.com/Sh
 Please refer to [https://github.com/spragunr/deep_q_rl](https://github.com/spragunr/deep_q_rl) for installing the dependencies.
 
 # Running
-You can train an EBU agent with a constant diffusion factor 0.5 in breakout using random seed 12.
-`<THEANO_FLAGS='device=gpu0, allow_gc=False' python code/run_EBU.py -r 'breakout' --Seed 12 --beta 0.5>`
+You can train an EBU agent with a constant diffusion factor 0.5 in breakout using random seed 12 on gpu0 as follows.
+`THEANO_FLAGS='device=gpu0, allow_gc=False' python code/run_EBU.py -r 'breakout' --Seed 12 --beta 0.5`
 
