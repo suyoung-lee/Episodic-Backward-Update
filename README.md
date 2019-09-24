@@ -17,9 +17,9 @@ Please refer to [https://github.com/spragunr/deep_q_rl](https://github.com/sprag
 
 # Major changes from the [deep Q RL](https://github.com/spragunr/deep_q_rl) implementation
 1. ale_agents.py -> _do_training : generate temporary target Q table and update
-2. ale_data_set.py -> random_episode : sample an episode instead of transitions
-3. ale_experiment.py -> run, run_epoch, run_episode : fixed to apply the Nature DQN setting so that each episode is at most 5 minutes.
-4. launcher.py contains additional hyperparameter for the diffusion factor
+1. ale_data_set.py -> random_episode : sample an episode instead of transitions
+1. ale_experiment.py -> run, run_epoch, run_episode : fixed to apply the Nature DQN setting so that each episode is at most 5 minutes.
+1. launcher.py contains additional hyperparameter for the diffusion factor
 
 # Running
 You can train an EBU agent with a constant diffusion factor 0.5 in breakout using random seed 12 on gpu0 as follows.
