@@ -10,3 +10,7 @@ EBU with a constant diffusion factor for the ATARI environment will be uploaded.
 * Matplotlib
 * Lasagne
 * ALE
+
+Our implementation is based on Shibi He's [implementation](https://github.com/ShibiHe/Q-Optimality-Tightening) of [Optimality Tightening](https://arxiv.org/abs/1611.01606) which is based on Nathan Sprague's implementation of [deep Q RL](https://github.com/spragunr/deep_q_rl).
+
+Please refer to [https://github.com/spragunr/deep_q_rl](https://github.com/spragunr/deep_q_rl) for installing the dependencies.
