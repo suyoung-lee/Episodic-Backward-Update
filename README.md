@@ -18,7 +18,7 @@ Please refer to [https://github.com/spragunr/deep_q_rl](https://github.com/sprag
 # Major changes from the [deep Q RL](https://github.com/spragunr/deep_q_rl) implementation
 * ale_agents.py / _do_training : generate temporary target Q table and update
 * ale_data_set.py / random_episode : sample an episode instead of a minibatch of transitions
-* ale_experiment.py / run, run_epoch, run_episode : fixed to apply the Nature DQN setting so that each episode is at most 5 minutes.
+* ale_experiment.py / run, run_epoch, run_episode : fixed to apply the Nature DQN setting so that each episode is played at most 4500 steps (18000 frames or 5 minutes).
 * launcher.py contains hyperparameter beta for the diffusion factor
 
 # Running
